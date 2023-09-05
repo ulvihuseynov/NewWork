@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.profil{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 50px auto;
+    border: 1px solid rgb(101, 100, 100);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px 1px rgb(130, 112, 130);
+}
+.profil img:hover{
+display: none;
+
+}
+.profil-info h2{
+    text-align: center;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(10, 10, 11);
+}
+.profil-info p{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    padding: 10px;
+    color: rgb(10, 10, 11);
+}
+.profil-info h3{
+    margin-left: 40px;
+    font-size: 26px;
+    /* font-weight: bold; */
+    color:rgb(10, 10, 11);
+}
+.profil-info ul li{
+    margin-left: 30px;
+    padding: 2px 30px;
+    font-size: 18px;
+    color: rgb(10, 10, 11);
+    list-style: none;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
